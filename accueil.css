@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(Quicksand-Light.otf) format(otf);
+    src: url(Quicksand-Regular.otf) format(otf);
+}
+
+body
+header, footer {
+    background-color: #666666;
+}
+
+#header{
+    text-align: center;
+    color: #FFFFFF;
+}
+#header h1 {
+    font-family: Quicksand;
+    font-weight: bolder;
+} 
+
+#header p {
+    font-family: Quicksand;
+    font-weight: lighter;
+}
+
+#nav{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item:hover{
+    background-color: #FF4742;
+    padding: auto;
+}
+
+.nav-item{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:hover, a.nav-item:hover {
+    color:black;
+}
+
+#icon {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 24px;
+}
+
+li{
+    list-style: none;
+}
+a{
+   text-decoration: none; 
+}
+
+#nav a {
+    color: #FFFFFF;
+}
+
+main{
+    background-color: #FFFFFF;
+    padding: 0px 30px;
+    margin-top: 40px;
+    margin-bottom :150px; 
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+.float{
+    float: right;
+}
+
+li.icons a{
+    color: #FF4742;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+

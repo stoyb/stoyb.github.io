@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(Quicksand-Light.otf) format(otf);
+    src: url(Quicksand-Regular.otf) format(otf);
+}
+
+header, footer {
+     background-color: #666666;
+ }
+
+#header{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+ #header h1 {
+    font-family: Quicksand;
+    font-weight: bolder;
+} 
+
+#header p {
+    font-family: Quicksand;
+    font-weight: lighter;
+}
+ 
+ #nav{
+     padding: 1rem 0;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .nav-item{
+     margin-right: 2rem;
+     text-transform: uppercase;
+     font-family:Arial, Helvetica, sans-serif;
+ }
+ 
+ a:hover, a.nav-item:hover {
+     color:black;
+ }
+ 
+ #icon {
+     display:flex;
+     justify-content: space-between;
+     margin-left: 400px;
+     margin-right: 400px;
+     font-size: 24px;
+ }
+ 
+ li{
+     list-style: none;
+ }
+
+ a{
+    text-decoration: none; 
+ }
+ 
+ #nav a {
+     color: #FFFFFF;
+ }
+ 
+ main{
+     background-color: #FFFFFF;
+     padding: 0px 30px;
+     margin-top: 40px;
+     margin-bottom :120px; 
+     font-family: Arial, Helvetica, sans-serif ;
+     text-align: center;
+ }
+ ::placeholder{
+    opacity: 0.5;
+    font-style: italic;
+ }
+
+ input{
+     width: 200px;
+     font-size: small;
+ }
+ 
+ textarea{
+     font-family:  Arial, sans-serif;
+     font-size: small;
+
+ }
+
+/* Button */
+button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+button:active {
+  opacity: .5;
+}
+ 
+li.icons a{
+    color: #FF4742;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
